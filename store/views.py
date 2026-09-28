@@ -1,4 +1,5 @@
-from telnetlib import STATUS
+
+
 from django.shortcuts import render,HttpResponse , redirect
 from django.template import context
 from store.forms.authforms import CustomerCreationForm , CustomerAuthForm
